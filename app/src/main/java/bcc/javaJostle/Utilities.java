@@ -17,7 +17,9 @@ public class Utilities {
     public static BufferedImage DEFAULT_PROJECTILE_IMAGE;
     public static BufferedImage HEALTH_PACK_IMAGE;
     public static BufferedImage SPEED_PACK_IMAGE;
-    public static BufferedImage ATTACK_PACK_IMAGE;
+    public static BufferedImage ATTACK_PACK_IMAGE;    
+    public static BufferedImage CHAOS_BOT_IMAGE;
+    public static BufferedImage CHAOS_BULLET_IMAGE;
 
     public final static int WALL = 0;
     public final static int GRASS = 1;
@@ -53,6 +55,8 @@ public class Utilities {
         MUD_IMAGE = loadImage("mud.png");
         ROBOT_ERROR = loadImage("robotError.png");
         DEFAULT_PROJECTILE_IMAGE = loadImage("defaultProjectile.png");
+        CHAOS_BOT_IMAGE = loadImage("2020Bot.png");
+        CHAOS_BULLET_IMAGE = loadImage("2020Bullet.png");
 
         // Optional: Add checks here if any image failed to load, though loadImage
         // already prints errors
