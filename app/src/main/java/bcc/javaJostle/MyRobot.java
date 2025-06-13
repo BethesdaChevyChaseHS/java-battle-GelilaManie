@@ -26,7 +26,7 @@ public class MyRobot extends Robot {
         PowerUp nearestPowerUp = null;
         int powerUpDist = Integer.MAX_VALUE;
         for (PowerUp p : powerups) {
-            int dist = Math.abs(p.getX() - this.getX()) + Math.abs(p.getY() - this.getY());
+            int dist = (int) (Math.abs(p.getX() - this.getX()) + Math.abs(p.getY() - this.getY()));
             if (dist < powerUpDist) {
                 powerUpDist = dist;
                 nearestPowerUp = p;
